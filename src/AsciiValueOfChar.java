@@ -13,7 +13,7 @@ public class AsciiValueOfChar {
         char character = ch.next().charAt(0);
 
         // TYPECAST above character into int.
-        int TypeCastCh = (int) character;
-        System.out.println(character + "'s" + " ASCII value is : " + TypeCastCh);
+        int typeCastCh = (int) character;
+        System.out.println(character + "'s" + " ASCII value is : " + typeCastCh);
     }
 }
