@@ -3,31 +3,15 @@ import java.util.Scanner;
 public class LargestOfThree {
     public static void main(String[] args) {
 
-        // taking input from user.
-        Scanner Num1 = new Scanner(System.in);
-        System.out.print("Enter a number 1 : ");
-        int a = Num1.nextInt();
+        double n1 = -4.5, n2 = 3.9, n3 = 2.5;
 
-        Scanner Num2 = new Scanner((System.in));
-        System.out.print("Enter a number 2 : ");
-        int b = Num2.nextInt();
+        if( n1 >= n2 && n1 >= n3)
+            System.out.println(n1 + " is the largest number.");
 
-        Scanner Num3 = new Scanner(System.in);
-        System.out.print("Enter a number 3 : ");
-        int c = Num3.nextInt();
+        else if (n2 >= n1 && n2 >= n3)
+            System.out.println(n2 + " is the largest number.");
 
-
-        if (a >= b) {
-      if (c >= a) {
-                System.out.println("c is bigger ");
-            } else
-                System.out.println("a is bigger ");
-            }
-        if (b>=c){
-            if(a>=b){
-                System.out.println("a is bigger ");
-            } else
-                System.out.println("b is bigger ");
+        else
+            System.out.println(n3 + " is the largest number.");
+    }
         }
-    }
-    }
