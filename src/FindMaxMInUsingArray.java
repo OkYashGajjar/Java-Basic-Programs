@@ -30,6 +30,5 @@ public class FindMaxMInUsingArray {
         }
         System.out.println("Largest number is : " + max);
         System.out.println("Smallest number is : " + min);
-
     }
 }
