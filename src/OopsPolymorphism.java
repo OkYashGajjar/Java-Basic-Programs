@@ -16,8 +16,8 @@ class Students1 {
     public void studentInfo(){
         System.out.println(this.name);
     }
-    public void studentInfo(int age){
-        System.out.println(this.name);
+    public void studentInfo(int birthYear , String name){
+        System.out.println(this.name + this.birthYear + name);
     }
     public void studentInfo(float percentage){
         System.out.println(this.name);
@@ -46,6 +46,7 @@ public class OopsPolymorphism {
 
         Students1 st2 = new Students1(st1);
         st2.studentInfo();
+        st2.studentInfo(2005, "arnav");
 
     }
 }
