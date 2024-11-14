@@ -20,14 +20,14 @@ public class DSABinarySearch {
         }
         return -1;
     }
-    public static void main(String[] args){
 
+    public static void main(String[] args)
+    {
         int[] array = {1, 2, 3 ,4 ,5, 6, 7, 8};
-        int key = 10;
+        int key = 7;
         int answer = (binarySearch(array , key));
         if(answer == -1){
             System.out.println("key is not there.");
         }
-
     }
 }
