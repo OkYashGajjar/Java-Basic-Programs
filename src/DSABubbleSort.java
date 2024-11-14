@@ -4,7 +4,7 @@ public class DSABubbleSort {
         int n = a.length;
         // making loop for compare.
         for( int i = 0; i < n ; i++){
-            for ( int j = 1; j< (n-i) ; j++ ){
+            for ( int j = 1; j< n ; j++ ){
                 // comparing an elements in array.
                 if ( a[j] < a[j-1]){
                     // sorting here.
