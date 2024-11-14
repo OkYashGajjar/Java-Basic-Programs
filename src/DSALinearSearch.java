@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LinearSearchDSA{
+public class DSALinearSearch {
 
     public static int linearSearch(int[] a, int key ){
 
